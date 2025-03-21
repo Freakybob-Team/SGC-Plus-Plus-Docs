@@ -41,7 +41,7 @@ SOFTWARE.
 }
 
 #content {
-    height: calc(-136px + 100vh);
+    height: calc(-135px + 100vh);
     overflow-y: auto;
 }
 
@@ -72,5 +72,5 @@ SOFTWARE.
     width: 220px;
     flex-shrink: 0;
     overflow-y: auto;
-    height: calc(-156px + 100vh);
+    height: calc(-155px + 100vh);
 }
