@@ -1,1 +1,0 @@
-mpaxfw.createObject('h1', 'hello mpax235 framework!', 'Hello World', 'helloworld', 'helloworldclass');

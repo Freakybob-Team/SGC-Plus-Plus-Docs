@@ -1,1 +1,0 @@
-mpaxfw.createCanvas(200, 200, '#00ffff');
