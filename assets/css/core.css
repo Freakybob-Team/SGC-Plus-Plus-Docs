@@ -1,0 +1,193 @@
+/*
+MIT License
+
+Copyright (c) 2025 mpax235
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/*
+//////////////////
+// CORE
+//////////////////
+*/
+
+/* MAIN CORE */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', 'Arial';
+    background-color: #000000;
+    background-image: url('https://mpax235.github.io/assets/images/websitebackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* SCROLLBAR */
+
+@supports (scrollbar-color: auto) {
+    html {
+        scrollbar-color: #00ffff5e #000000;
+    }
+}
+
+@supports selector(::-webkit-scrollbar) {
+    html::-webkit-scrollbar {
+        background-color: #000000;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        background-color: #0063635e;
+        border: 1px solid rgba(0, 255, 255, 0.18);
+        border-radius: 12px;
+    }
+
+    html::-webkit-scrollbar-thumb:hover {
+        background-color: #0083835e;
+    }
+
+    html::-webkit-scrollbar-track {
+        background: #0000005e;
+    }
+
+    html::-webkit-scrollbar-button {
+        background-color: #0063635e;
+        border: 1px solid rgba(0, 255, 255, 0.18);
+    }
+    
+    html::-webkit-scrollbar-button:hover {
+        background-color: #0083835e;
+    }
+    
+    html::-webkit-scrollbar-button:single-button:vertical:decrement {
+        background-image: url('https://mpax235.github.io/assets/images/scrollbar/scrollbar_up_arrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    html::-webkit-scrollbar-button:single-button:vertical:increment {
+        background-image: url('https://mpax235.github.io/assets/images/scrollbar/scrollbar_down_arrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    html::-webkit-scrollbar-button:single-button:horizontal:decrement,
+    html::-webkit-scrollbar-button:single-button:horizontal:increment {
+        display: none;
+    }
+}
+
+/* CORE ELEMENTS */
+
+button {
+    background-color: #1616165e;
+    border: 1px solid rgba(0, 255, 255, 0.18);
+    padding: 10px 15px;
+    color: #00ffff;
+    font-family: 'Montserrat', 'Arial';
+    text-decoration: none;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+    backdrop-filter: blur(7px);
+}
+
+button:hover {
+    background-color: #00ffff5e;
+    transform: scale(1.05);
+    color: #000000;
+    cursor: pointer;
+}
+
+input {
+    background-color: #1616165e;
+    color: #00ffff;
+    border: 1px solid rgba(0, 255, 255, 0.18);
+    padding: 10px 15px;
+    font-family: 'Montserrat', 'Arial';
+    text-decoration: none;
+    text-align: left;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+    backdrop-filter: blur(7px);
+}
+
+input::placeholder {
+    transition: 0.2s ease-in-out;
+    color: rgba(0, 255, 255, 0.18);
+}
+
+input:hover {
+    background-color: #00ffff5e;
+    color: #000000;
+}
+
+input:hover::placeholder {
+    color: rgba(0, 0, 0, 0.82);
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+p {
+    color: #00ffff;
+}
+
+h1, h2, h3, h4, h5, h6, table {
+    color: #00ffff;
+    font-weight: normal;
+}
+
+table {
+    text-align: left;
+    color: #00ffff;
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    backdrop-filter: blur(7px);
+}
+
+td, th {
+    padding: 4px;
+    border: 1px solid rgba(0, 255, 255, 0.18);
+    background-color: #1111115e;
+}
+
+/***********************************************************/
+
+span {
+    color: #00ffff;
+}
+
+hr {
+    border: 1px solid rgba(0, 255, 255, 0.18);
+    width: 200px;
+    margin: 0;
+}
