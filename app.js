@@ -38,3 +38,40 @@ loadMarkdown('documentation/index.md');
  * });
  * - mpax235
  */
+
+document.getElementById('const').addEventListener('click', () => {
+    loadMarkdown('documentation/functions/const.md');
+});
+
+document.getElementById('gPrintln').addEventListener('click', () => {
+    loadMarkdown('documentation/functions/gPrintln.md');
+});
+
+document.getElementById('ifelse').addEventListener('click', () => {
+    loadMarkdown('documentation/functions/ifelse.md');
+});
+
+document.getElementById('import').addEventListener('click', () => {
+    loadMarkdown('documentation/functions/import.md');
+});
+
+document.getElementById('letvar').addEventListener('click', () => {
+    loadMarkdown('documentation/functions/letvar.md');
+});
+
+// let var hahahahahahahashahahahaha
+
+// holy shit my la;top just exlode
+// wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow wow ow wow ow wiow wow wow now wio wow o
+
+document.getElementById('ball8').addEventListener('click', () => {
+    loadMarkdown('documentation/programs/8ball.md');
+});
+
+document.getElementById('calculatorexample').addEventListener('click', () => {
+    loadMarkdown('documentation/programs/calculator.md');
+});
+
+document.getElementById('lastfmrecentexample').addEventListener('click', () => {
+    loadMarkdown('documentation/programs/lastfmrecentscrobble.md');
+});

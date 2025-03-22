@@ -32,7 +32,7 @@ SOFTWARE.
 
 #content {
     margin-left: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
     flex: 1;
 }
 
@@ -69,8 +69,28 @@ SOFTWARE.
     gap: 10px;
     padding: 10px;
     background-color: #111d28;
-    width: 220px;
     flex-shrink: 0;
     overflow-y: auto;
+    overflow-x: hidden;
     height: calc(-155px + 100vh);
+}
+
+.sidebar2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #111d28;
+    flex-shrink: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(-155px + 100vh);
+}
+
+.output {
+    color: white;
+    font-family: monospace;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 5px;
 }

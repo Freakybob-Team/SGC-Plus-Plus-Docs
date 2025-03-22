@@ -71,10 +71,11 @@ button {
     height: 30px;
     border-radius: 0;
     border: none;
-    padding: 0px 15px;
+    padding: 7.5px 15px;
     background-color: inherit;
     color: #ffffff;
 }
+
 
 button:hover {
     background-color: #074256;
