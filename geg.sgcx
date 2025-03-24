@@ -1,3 +1,0 @@
-const names_is_gay = True
-
-gPrintln(names_is_gay)
