@@ -75,3 +75,7 @@ document.getElementById('calculatorexample').addEventListener('click', () => {
 document.getElementById('lastfmrecentexample').addEventListener('click', () => {
     loadMarkdown('documentation/programs/lastfmrecentscrobble.md');
 });
+
+document.getElementById('tkinterguiexample').addEventListener('click', () => {
+    loadMarkdown('documentation/programs/tkintergui.md');
+});
